@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.firebase.cloudfirestore.test" >
+4
+5    <uses-sdk
+5-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:11:5-15:97
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:13:22-53
+13        android:label="Tests for io.flutter.plugins.firebase.cloudfirestore.test"
+13-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:15:22-95
+14        android:targetPackage="io.flutter.plugins.firebase.cloudfirestore.test" />
+14-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:12:22-93
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:14:5-67
+18-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:14:22-64
+19
+20    <application android:debuggable="true" >
+20-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:7:5-9:19
+20-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:7:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:8:9-60
+21-->F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger1955586358864155715.xml:8:23-57
+22
+23        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+23-->[__tested_artifact__::cloud_firestore] F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+23-->[__tested_artifact__::cloud_firestore] F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+24            <meta-data
+24-->[__tested_artifact__::cloud_firestore] F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+25                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+25-->[__tested_artifact__::cloud_firestore] F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+26                android:value="com.google.firebase.components.ComponentRegistrar" />
+26-->[__tested_artifact__::cloud_firestore] F:\AndroidStudioProjects\Flutter\exhibition\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+27            <meta-data
+27-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:18:13-20:85
+28                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+28-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:19:17-111
+29                android:value="com.google.firebase.components.ComponentRegistrar" />
+29-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\747bccfde2e4c7e48133c012180ad4ea\firebase-firestore-19.0.0\AndroidManifest.xml:20:17-82
+30        </service>
+31
+32        <activity
+32-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57567ae853f194090e0776c253229cce\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+33            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+33-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57567ae853f194090e0776c253229cce\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+34            android:exported="false"
+34-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57567ae853f194090e0776c253229cce\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+35-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57567ae853f194090e0776c253229cce\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+36
+37        <provider
+37-->[com.google.firebase:firebase-common:17.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\31b80583480dd3b44071c6f1604e33cb\firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+38            android:name="com.google.firebase.provider.FirebaseInitProvider"
+38-->[com.google.firebase:firebase-common:17.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\31b80583480dd3b44071c6f1604e33cb\firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+39            android:authorities="io.flutter.plugins.firebase.cloudfirestore.test.firebaseinitprovider"
+39-->[com.google.firebase:firebase-common:17.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\31b80583480dd3b44071c6f1604e33cb\firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+40            android:exported="false"
+40-->[com.google.firebase:firebase-common:17.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\31b80583480dd3b44071c6f1604e33cb\firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+41            android:initOrder="100" />
+41-->[com.google.firebase:firebase-common:17.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\31b80583480dd3b44071c6f1604e33cb\firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+42
+43        <meta-data
+43-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e18422560e1fac028ad72967681ebf66\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+44            android:name="com.google.android.gms.version"
+44-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e18422560e1fac028ad72967681ebf66\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+45            android:value="@integer/google_play_services_version" />
+45-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e18422560e1fac028ad72967681ebf66\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+46        <meta-data
+46-->[com.android.support:support-v4:26.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57e7d350e49147351c96c9c797c0e053\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+47            android:name="android.support.VERSION"
+47-->[com.android.support:support-v4:26.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57e7d350e49147351c96c9c797c0e053\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+48            android:value="26.1.0" />
+48-->[com.android.support:support-v4:26.1.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\57e7d350e49147351c96c9c797c0e053\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+49        <meta-data
+49-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e149d101e1338fde90c1c3026961f7e0\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+50            android:name="android.arch.lifecycle.VERSION"
+50-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e149d101e1338fde90c1c3026961f7e0\runtime-1.0.0\AndroidManifest.xml:26:13-58
+51            android:value="27.0.0-SNAPSHOT" />
+51-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\BHAVIK DODIA\.gradle\caches\transforms-2\files-2.1\e149d101e1338fde90c1c3026961f7e0\runtime-1.0.0\AndroidManifest.xml:27:13-44
+52    </application>
+53
+54</manifest>
